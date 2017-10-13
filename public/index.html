@@ -1,0 +1,107 @@
+﻿
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>O365 Connect sample</title>
+    <base href="/">
+    <script src="scripts/angular.js"></script>
+     <script src="scripts/angular-route.js"></script>
+
+    <!-- App code. -->
+    <script src="scripts/config.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="controllers/mainController.js"></script>
+    <script src="controllers/webController.js"></script>
+
+    <!-- ADAL JS files. -->
+    <style>
+        body {
+            font-family: omnes-pro,omnes, Helvetica, Arial, sans-serif;
+        }
+        .container{
+            max-width: 1280px;
+            margin:auto;
+        }
+        .panorama{
+            background-color: #f00;
+            height:85px;
+        }
+        .header{
+            margin-top: -7px;
+            background-color: #eee;
+            border-top:1px solid #000;
+            height: 70px;
+        }
+        .left{
+            float:left;
+        }
+        .right{
+            float:right;
+        }
+        .clear{
+            clear: both;
+        }
+        .hide{
+            display: none;
+        }
+        .menu ul
+        {
+            margin:0;
+            padding:0;
+            list-style-type: none;
+           
+        }
+        .menu ul li{
+            margin-left:15px;
+            list-style-type: none;
+             display: inline;
+        }
+        .content{
+            max-height: 500px;
+        }
+        .content .item{
+            float:left;
+            width:28%;
+            height:450px;
+            margin-left: 20px;
+            background: #eee;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="panorama"></div>
+<div class="header">
+    <div class="container">
+    <div class="logo left"></div>
+    <div class="menu right">
+        <ul>
+            <li><a href="/web">Web</a></li>
+            <li><a href="/design">Design</a></li>
+            <li><a href="/SharePoint">SP</a></li>
+        </ul>
+    </div>
+    </div>
+    </div>
+    <!-- body -->
+    <div class="container">
+             
+        <div class="content">
+            <div ng-app="app">
+                    <div ng-view></div>
+                </div>
+           <div class="clear"></div>
+       </div>
+    </div>
+    <div class="container">
+    <div class="footer">
+        <p>footer, yo &copy; 2016</p>
+    </div>
+</body>
+
+</html>
+

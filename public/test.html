@@ -1,0 +1,302 @@
+﻿
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TEST</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Hooray for Healthy Foods</title>
+  <base href="/">
+
+  <script src="scripts/angular.js"></script>
+  <script src="scripts/angular-route.js"></script>
+  <script src="scripts/loading-bar.js"></script>
+  <link rel="stylesheet" href="scripts/loading-bar.css">
+
+  <!-- App code. -->
+  <script src="scripts/config.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="controllers/mainController.js"></script>
+
+  <!-- ADAL JS files. -->
+  <script src="scripts/adal.js"></script>
+  <script src="scripts/adal-angular.min.js"></script>
+  <link rel="stylesheet" href="http://www.crayola.com/application/education/css/lp-all.css" />
+    <style>
+        body{
+            font-family: omnes-pro,omnes, Helvetica, Arial, sans-serif;
+        }
+        button img{
+            position:relative;
+            top:3px;
+        }
+        button .ms-Button-label{
+            position:relative;
+            top:-7px;
+        }
+     .box-supplies + .aside-box{
+         margin-bottom:0;
+     }
+    </style>
+</head>
+
+<body class="ms-Grid">
+
+    <div id="content" style="width:1200px; margin:auto;">
+        <div class="col-main col-xs-12 col-md-8" style="float:left; width:66.66666667%;">
+            <div class="page-header-lp">
+                <h1>Hooray for Healthy Foods</h1>
+            </div>
+            <div class="intro">
+                <p>Give me a B---for Broccoli! Or Berries! Or Bananas! Students share their favorite recipes for healthy foods with classmates.</p>
+            </div>
+            <div class="visual-panel" style="width:645px;">
+                <div class="social-bar">
+                    <ul>
+                        <li><a href="#" class="link-print">Print</a></li>
+                        <!--<li><a href="#" class="link-favorite">Favorite</a></li>-->
+                        <li><a href="#new_popup_holder" class="link-share">Share</a></li>
+                    </ul>
+                </div>
+                <div class="img-box">
+                    <a href="#">
+                        <img id="hero-img" src="/~/media/Crayola/Lesson%20Plans/lesson_plans/1109.jpg?h=478&mh=762&mw=645&w=645.jpg" alt="Americana Coasters lesson plan" style="width:645px; height:628px;" width="645" height="620">
+                        <!-- <span class="zoom">Zoom</span> -->
+                    </a>
+                </div>
+                <ul class="infobar">
+                    <li>
+                        <strong>
+                            <span class="icon icon-book"></span>
+                            Grade 3<br>
+
+                            Grade 4<br>
+
+                            Grade 5<br>
+
+                        </strong>
+                    </li>
+                    <li>
+                        <strong>
+                            <span class="icon icon-clock"></span>
+                            60 to 90 Minutes<br>
+
+                        </strong>
+                    </li>
+                    <!--<li>
+                        <strong><span class="icon ico-print"></span>153,136</strong>
+                    </li>
+                    <li>
+                        <strong><span class="icon icon-heart2"></span>158</strong>
+                    </li>-->
+                </ul>
+            </div>
+            <ul class="items">
+                <li class="active">
+                    <h2><a href="#" class="opener" title="Directions">Directions</a></h2>
+                    <div class="slide">
+
+                        <ol>
+
+                            <li>
+                                Ask students what is their favorite good-for-you food? Find out more about why it is healthy, and how nutritious foods are important as part of a stay-fit lifestyle. Then prepare to share tasty, diverse recipes for yummy dishes. This classroom banner campaign is sure to call attention to smart eating!
+                            </li>
+
+                            <li>
+                                Cut construction paper into a large banner with Crayola Scissors. Students draw a picture, write the name of a favorite healthy food, and decorate the banner using Crayola Washable Markers.
+                            </li>
+
+                            <li>
+                                Students use Crayola Model Magic® to mold a 3-D replica of their healthy food. Make your own colors of Model Magic by adding marker color to white modeling compound. Knead it into the desired color. Glue the replica to the banner with Crayola School Glue.
+                            </li>
+
+                            <li>
+                                On lined paper, students write a recipe made with their healthy food. Choose one that’s a family heritage favorite or a new recipe. Students glue their recipe to the banner and share information about the food with classmates. Display the banner in the cafeteria, hallways, or other public places to inspire healthy eating!
+                            </li>
+
+                        </ol>
+
+                    </div>
+                </li>
+
+                <li class="active">
+
+                    <h2><a href="#" class="opener" title="Standards">Standards</a></h2>
+                    <div class="slide">
+
+                        <p>
+                            LA: Ask and answer questions to demonstrate understanding of a text, referring explicitly to the text as the basis for the answers.
+
+                        </p>
+
+                        <p>
+                            LA: Use information gained from illustrations (e.g., maps, photographs) and the words in a text to demonstrate understanding of the text.
+
+                        </p>
+
+                        <p>
+                            LA: Read and comprehend informational texts, including history/social studies, science, and technical texts, in the grade level text complexity band proficiently, with scaffolding as needed at the high end of the range.
+
+                        </p>
+
+                        <p>
+                            LA: Write informative/explanatory texts to examine a topic and convey ideas and information clearly.
+
+                        </p>
+
+                        <p>
+                            LA: Report on a topic or text, tell a story, or recount an experience in an organized manner, using appropriate facts and relevant, descriptive details to support main ideas or themes; speak clearly at an understandable pace.
+
+                        </p>
+
+                        <p>
+                            SCI: Use multiple sources to generate and communicate information about the size, stability, and specialization of groups animals may form, and how different types of groups may help the members survive in their natural habitats.
+
+                        </p>
+
+                        <p>
+                            VA: Use visual structures of art to communicate ideas.
+
+                        </p>
+
+                        <p>
+                            VA: Select and use subject matter, symbols, and ideas to communicate meaning.
+
+                        </p>
+
+                    </div>
+
+                </li>
+                <li class="active">
+
+                    <h2><a href="#" class="opener" title="Adaptations">Adaptations</a></h2>
+                    <div class="slide">
+
+                        <p>
+                            Possible classroom resources include: The Monster Health Book: A Guide to Eating Healthy, Being Active & Feeling Great for Monsters & Kids! by Edward Miller; The Vegetables We Eat by Gail Gibbons; Gregory, the Terrible Eater by Mitchell Sharmat
+
+                        </p>
+
+                        <p>
+                            Invite a local nutritionist to speak with the class about healthy eating and the pitfalls of failing to eat healthy food. Prior to the meeting have students compose interview questions for the expert. After the visit, students post learning to a class blog.
+
+                        </p>
+
+                        <p>
+                            Students investigate the connection of routine exercise to living a healthy life. Is healthy eating enough to keep you healthy?
+
+                        </p>
+
+                        <p>
+                            Comple student-family healthy food recipes into a book format. Have students word process their recipes and illustrate each recipe using Crayola Colored Pencils. Make color copies of each page and organize copies into book format. Have students create original covers for their copy of the recipe books.
+
+                        </p>
+
+                    </div>
+
+                </li>
+            </ul>
+            <div class="paging">
+                <p><a href="http://www.crayola.com/support/craft-safety.aspx" id="safetyGuidelines" title="View our Safety Guidelines" class="more">View our Safety Guidelines</a></p>
+            </div>
+        </div>
+        <aside class="aside col-xs-12 col-md-4" style="float:left; width:20.33333333%;">
+            <section class="aside-box box-supplies">
+                <h3><strong>SUPPLIES NEEDED</strong></h3>
+                <div class="frame">
+                    <ul class="list">
+
+                        <li id="listItem"><span id="uxSingleText">Construction Paper</span></li>
+
+                        <li id="listItem"><a href="http://shop.crayola.com/search?q=construction%20paper" title="Construction Paper">Model Magic</a></li>
+
+                        <li id="listItem"><span id="uxSingleText">Cork</span></li>
+
+                        <li id="listItem"><a href="http://shop.crayola.com/art-and-craft-supplies/glue-and-scissors/pointed-tip-scissors-6930103007.html" title="Pointed Tip Scissors">Pointed Tip Scissors</a></li>
+
+                        <li id="listItem"><span id="uxSingleText">Washable No-Run School Glue</span></li>
+
+                        <li id="listItem"><a href="http://shop.crayola.com/art-and-craft-supplies/markers#cgid=washable-markers" title="Washable Markers">Washable Markers</a></li>
+
+                    </ul>
+                </div>
+                <!--<p class="more-holder"><a href="#" class="more-alt">See more supplies</a></p>-->
+            </section>
+            <section class="aside-box box-links">
+                <a href="#" class="lp-btn lp-btn-primary lp-btn-print" onclick="javascript:(print());" role="button" title="Add to favorites"><span><span>Print</span></span></a>
+                <div ng-app="app">
+                    <div ng-view></div>
+                </div>
+                <!--<a href="#" class="link-add" role="button" title="Add to favorites">Add to favorites</a>-->
+            </section>
+            <section class="aside-box box-tags">
+                <h3>Tags</h3>
+                <h4>
+                    Categories
+                </h4>
+                <ul>
+
+                    <li>Language Arts</li>
+
+                    <li>Science, Ecology, and Technology</li>
+
+                    <li>Visual Arts</li>
+
+                </ul>
+                <h4>
+                    Subcategories
+                </h4>
+                <ul>
+                    
+                    <li>Colors, Lines, Shapes, Forms and Textures</li>
+
+                    <li>Fluency and Comprehension</li>
+
+                    <li>Nutrition and Food</li>
+
+                    <li>Reading and Informational Text</li>
+
+                    <li>Shapes and Geometry</li>
+
+                    <li>Speaking and Listening</li>
+
+                    <li>Using Media, Techniques and Processes</li>
+
+                    <li>Writing</li>
+
+                </ul>
+            </section>
+        </aside>
+    </div>
+</body>
+
+</html>
+
+<!--
+O365-Angular-Microsoft-Graph-Connect, https://github.com/OfficeDev/O365-Angular-Microsoft-Graph-Connect
+ 
+Copyright (c) Microsoft Corporation
+All rights reserved. 
+ 
+MIT License:
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+ 
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.    
+  
+-->
